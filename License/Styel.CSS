@@ -1,0 +1,21 @@
+
+---
+
+### **Initial Commit Code Snippet Example (`main.py`)**
+```python
+from src.model import AIModel
+from src.utils import load_data, save_results
+
+def main():
+    print("AI Income Project Initialized!")
+    
+    data = load_data("data/sample_input.csv")
+    model = AIModel()
+    
+    results = model.predict(data)
+    
+    save_results(results, "assets/output.csv")
+    print("Process Completed! Check assets/output.csv")
+
+if __name__ == "__main__":
+    main()
