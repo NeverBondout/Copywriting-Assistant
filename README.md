@@ -1,2 +1,19 @@
 # Copywriting-Assistant
 Automate ad copy, emails, and product descriptions.
+Repo-Name/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── setup.py (optional)
+├── LICENSE
+├── data/                # Dataset or sample data
+├── notebooks/           # Jupyter notebooks for experiments
+├── src/                 # Source code
+│   ├── __init__.py
+│   ├── main.py
+│   ├── model.py
+│   └── utils.py
+├── tests/               # Test scripts
+│   └── test_main.py
+└── assets/              # Images, diagrams, or sample outputs
